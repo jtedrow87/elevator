@@ -1,0 +1,38 @@
+<!--//
+UI Requirements:
+
+The elevator panel will include:
+- A display panel that indicates the current floor
+- Green and red lights indicating whether the elevator is going up or down
+- Four floor buttons
+- Four floors behind the elevator panel
+
+//-->
+<link resl="stylesheet" href="style.css">
+<script src="script.js"></script>
+<div id="floors">
+    	<div class="floor" id="floor_4">Fourth</div>
+    	<div class="floor" id="floor_3">Third</div>
+    	<div class="floor" id="floor_2">Second</div>
+    	<div class="floor" id="floor_1">First</div>
+    </div>
+    <div id="controller">
+    	<div id="led">
+        	<div id="led_floors">
+                <div class="led_floor">4</div>
+                <div class="led_floor">3</div>
+                <div class="led_floor">2</div>
+                <div class="led_floor">1</div>
+            </div>
+            <div id="led_direction">
+            	<div id="direction_up" class="litUp"></div>
+                <div id="direction_down" class="litUp"></div>
+            </div>
+        </div>
+        <div id="buttons">
+        	<div id="button_3" class="button" floor="3">3</div>
+        	<div id="button_4" class="button" floor="4">4</div>
+        	<div id="button_1" class="button" floor="1">1</div>
+        	<div id="button_2" class="button" floor="2">2</div>
+        </div>
+    </div>
